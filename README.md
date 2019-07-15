@@ -1,6 +1,6 @@
 # Short programming tasks solved in C#
 
-Tasks can be ran by running the `C-Example-Tasks/C-SharpTasks/Program.cs` file.
+Tasks can be run by running the `C-Example-Tasks/C-SharpTasks/Program.cs` file.
 In the file are flags to enable or disable the execution of specific tasks.
 
 ### Task 1: FooBar
