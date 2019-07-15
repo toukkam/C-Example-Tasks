@@ -20,7 +20,6 @@ namespace C_SharpTasks
                 // First loop: Populate the array with integers from 0 to n.
                 for (int i = 0; i < n; i++)
                 {
-
                     intArray1[i] = i;
                 }
                 
