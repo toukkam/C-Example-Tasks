@@ -124,14 +124,14 @@ namespace C_SharpTasks.LayeredConsoleApp
             dbTools.AddTaskToDatabase(name, description);
         }
 
-        // Removes a single task from the database.
+        // Remove a single task from the database.
         private void RemoveTask(DatabaseTools dbTools)
         {
             // User writes which task they want to remove.
             Console.WriteLine("Enter name of task to be removed:");
             string name = Console.ReadLine();
 
-            // Check that the task exists
+            // Check if the task exists
             if (!dbTools.TaskExists(name))
             {
                 Console.WriteLine(string.Format("Error: Task named '{0}' doesn't exist.", name));
@@ -149,7 +149,7 @@ namespace C_SharpTasks.LayeredConsoleApp
             Console.WriteLine("Enter name of task to be updated:");
             string name = Console.ReadLine();
 
-            // Check that the task exists
+            // Check if the task exists
             if (!dbTools.TaskExists(name))
             {
                 Console.WriteLine(string.Format("Error: Task named '{0}' doesn't exist.", name));
@@ -171,7 +171,7 @@ namespace C_SharpTasks.LayeredConsoleApp
             Console.WriteLine("Enter name of task to be toggled:");
             string name = Console.ReadLine();
 
-            // Check that the task exists
+            // Check if the task exists
             if (!dbTools.TaskExists(name))
             {
                 Console.WriteLine(string.Format("Error: Task named '{0}' doesn't exist.", name));
